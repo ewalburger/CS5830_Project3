@@ -6,6 +6,8 @@ Overall question: what distinguishes successful Steam games from the rest of the
 If we want to compare successful vs unsuccessful games, what should we look at?
 Is there an external list we could look at to decide what the top games are?
 
+- look at the current most successful games that have the most players in the last 30 days.
+
 ## Ideas of things to look at
 
 - how is player engagement distributed across steam games?
