@@ -1,9 +1,30 @@
 # CS5830_Project3
 
+Overall question: what distinguishes successful Steam games from the rest of the Steam catalog?
+
+- general question: how do we decide what a successful steam game is? 
+If we want to compare successful vs unsuccessful games, what should we look at?
+Is there an external list we could look at to decide what the top games are?
+
+## Ideas of things to look at
+
+- how is player engagement distributed across steam games?
+    - player count over time
+- how do "successful" games differ from each other?
+    - look at player count
+    - look at cost
+    - look at player trends across time
+- which characteristics are most associated with player engagement?
+    - could look at most common tags
+    - could compare prices
+- are there distinct types of successful steam games?
+    - could look at tags for most common games, see if they overlap
+
+## Example output for one game
+
 link to all the 64 endpoints available through the steamwebapi: https://www.steamwebapi.com/api/steam/documentation
 
-```curl -H "X-Api-Key: API-KEY" \
-  "https://www.steamwebapi.com/steam/api/apps"```
+```curl -H "X-Api-Key: API-KEY" \  "https://www.steamwebapi.com/steam/api/apps"```
 
 When I limited it to return 1 result from apps, this was the output, which should give us a good idea for what kind of info we can query about each app:
 
